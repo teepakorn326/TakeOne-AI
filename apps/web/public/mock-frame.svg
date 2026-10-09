@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Mock generation preview">
+  <rect width="960" height="540" fill="#15171b"/>
+  <rect x="42" y="42" width="876" height="456" rx="8" fill="#202329" stroke="#3f434b" stroke-width="2"/>
+  <rect x="96" y="95" width="768" height="350" rx="4" fill="#282c33"/>
+  <path d="M96 355 L292 210 L430 300 L606 162 L864 355 V445 H96Z" fill="#363b44"/>
+  <circle cx="710" cy="165" r="42" fill="#454b55"/>
+  <rect x="346" y="218" width="268" height="96" rx="8" fill="#15171b" stroke="#626a76"/>
+  <text x="480" y="261" text-anchor="middle" fill="#f0f1f3" font-family="Arial, sans-serif" font-size="24" font-weight="700">MOCK OUTPUT</text>
+  <text x="480" y="291" text-anchor="middle" fill="#a6abb4" font-family="Arial, sans-serif" font-size="13">No video was generated</text>
+  <text x="96" y="478" fill="#a6abb4" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">TAKEONE AI · PROVIDER TEST</text>
+</svg>

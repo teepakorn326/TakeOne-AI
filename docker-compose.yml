@@ -1,0 +1,19 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: takeone
+      POSTGRES_USER: takeone
+      POSTGRES_PASSWORD: takeone
+    ports:
+      - "5432:5432"
+    volumes:
+      - takeone_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U takeone -d takeone"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  takeone_pg:
+

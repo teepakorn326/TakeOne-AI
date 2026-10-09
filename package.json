@@ -1,0 +1,10 @@
+{
+  "name": "takeone-ai",
+  "private": true,
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @takeone/web",
+    "build:web": "npm run build --workspace @takeone/web"
+  }
+}
+
