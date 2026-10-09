@@ -68,3 +68,4 @@ The database migration can also be checked against an existing database:
 
 `apps/api/src/takeone_api/providers.py` defines the provider seam; `shot_specs.py` owns continuity, deterministic prompt compilation, and demo routing; `generation.py` owns attempt and charge rules; `review.py` owns human decisions; `analytics.py` computes ledger-backed production metrics; `workflow.py` and `worker.py` run Temporal coordination. The two mock provider configurations allow local switching, with different simulated prices. Real provider credentials and GCS media storage remain pilot work.
 # content-generator
+# content-generator
